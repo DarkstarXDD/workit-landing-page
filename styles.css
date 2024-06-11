@@ -2,8 +2,8 @@
   font-family: "Fraunces";
   font-weight: 600;
   src: local("Fraunces_144pt-SemiBold"),
-    url("/assets/fonts/fraunces-v31-latin-600.woff2"),
-    url("/assets/fonts/fraunces-v31-latin-600.woff");
+    url("/assets/fonts/Fraunces_144pt-SemiBold.woff2"),
+    url("/assets/fonts/Fraunces_144pt-SemiBold.woff");
 }
 
 @font-face {
