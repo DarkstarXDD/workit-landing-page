@@ -223,7 +223,7 @@ body {
 }
 
 .features {
-  max-width: 35.8125rem;
+  max-width: 36rem;
   gap: 2.5rem;
 }
 
@@ -338,11 +338,16 @@ body {
     text-align: left;
   }
 
+  .features {
+    gap: 3rem;
+  }
+
   .feature {
     grid-template: auto auto / auto auto;
     grid-template-areas:
       "number title"
       "number description";
+    justify-items: left;
     gap: 1rem 2rem;
   }
 
@@ -352,20 +357,44 @@ body {
 
   .feature__title {
     grid-area: title;
+    margin-top: 0;
   }
 
   .feature__description {
     grid-area: description;
   }
 
+  .section-founder {
+    padding-inline: 2.5rem;
+    margin-top: 14.8rem;
+  }
+
+  .founder__img {
+    left: 50%;
+    transform: translate(-21.5rem, -9.5rem);
+  }
+
   .founder-message-wrapper {
+    position: relative;
+    align-items: start;
+    transform: translateX(86px);
     gap: 1.5rem;
     padding: 3.5rem;
     padding-top: 3rem;
   }
 
+  .founder-message-wrapper:after {
+    content: url("/assets/images/bg-pattern-3.svg");
+    position: absolute;
+    transform: translate(14rem, 12rem);
+  }
+
   .founder__btn {
     margin-top: 0;
+  }
+
+  .footer {
+    padding-block: 5rem 7.625rem;
   }
 }
 
