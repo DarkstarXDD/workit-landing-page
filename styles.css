@@ -147,7 +147,7 @@ body {
 .main {
   width: 100%;
   position: relative;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* overflow: hidden; */
   /* gap: 4rem; */
   /* gap: 3rem; */
@@ -215,7 +215,7 @@ body {
 .hero__img {
   width: 100%;
   max-width: 32.125rem;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 .section-features {
@@ -475,10 +475,11 @@ body {
 
   .hero__img {
     max-width: 48rem;
+    margin-top: 0;
   }
 
   .section-features {
-    padding-block: 3rem 12rem;
+    padding-block: 4rem 11rem;
   }
 
   .features {
