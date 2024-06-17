@@ -184,6 +184,9 @@ body {
 .hero__title em {
   font-style: normal;
   text-decoration: underline;
+  text-decoration-color: var(--clr-primary-400);
+  text-decoration-thickness: 0.1875rem;
+  text-underline-offset: 0.6rem;
 }
 
 .btn {
@@ -409,7 +412,6 @@ body {
     position: absolute;
     bottom: -6.5rem;
     right: 1rem;
-    /* transform: translate(14rem, 12rem); */
   }
 
   .founder__btn {
@@ -509,7 +511,6 @@ body {
   .founder-message-wrapper:after {
     bottom: -4.5rem;
     right: 5rem;
-    /* transform: translate(23rem, 10rem); */
   }
 
   .footer {
