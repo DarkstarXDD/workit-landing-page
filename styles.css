@@ -2,23 +2,12 @@
   font-family: "Fraunces";
   font-weight: 600;
   src: local("Fraunces_144pt-SemiBold"),
-    url("/assets/fonts/Fraunces_144pt-SemiBold.woff2"),
-    url("/assets/fonts/Fraunces_144pt-SemiBold.woff");
+    url("/assets/fonts/Fraunces_144pt-SemiBold.woff2");
 }
 
 @font-face {
   font-family: "Manrope";
-  font-weight: 400;
-  src: local("Manrope-Regular"),
-    url("assets/fonts/manrope-v15-latin-regular.woff2"),
-    url("/assets/fonts/manrope-v15-latin-regular.woff");
-}
-
-@font-face {
-  font-family: "Manrope";
-  font-weight: 700;
-  src: local("Manrope-Bold"), url("/assets/fonts/manrope-v15-latin-700.woff2"),
-    url("/assets/fonts/manrope-v15-latin-700.woff");
+  src: url("assets/fonts/Manrope-VariableFont_wght.woff2");
 }
 
 /* ------------------- CSS Reset ------------------- */
