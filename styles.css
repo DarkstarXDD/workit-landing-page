@@ -324,20 +324,26 @@ body {
   }
 
   .main::before {
-    content: url("/assets/images/bg-pattern-1.svg");
+    content: "";
     position: absolute;
     width: 21.3125rem;
     height: 20.125rem;
+    background-image: url("/assets/images/bg-pattern-1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
     top: -2rem;
     left: -14rem;
     z-index: 10;
   }
 
   .main::after {
-    content: url("/assets/images/bg-pattern-2.svg");
+    content: "";
     position: absolute;
     width: 10.875rem;
     height: 11.15rem;
+    background-image: url("/assets/images/bg-pattern-2.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
     top: 9.5rem;
     right: -6rem;
     z-index: 10;
@@ -406,10 +412,13 @@ body {
   }
 
   .founder-message-wrapper:after {
-    content: url("/assets/images/bg-pattern-3.svg");
+    content: "";
     position: absolute;
     width: 13.8125rem;
     height: 13.5625rem;
+    background-image: url("/assets/images/bg-pattern-3.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
     bottom: -6.5rem;
     right: 1rem;
   }
