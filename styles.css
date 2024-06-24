@@ -210,7 +210,7 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
-  background-image: url("/assets/images/features-bg-curve.svg");
+  background-image: url("/assets/images/features-curved-bg.svg");
   background-position: bottom;
   background-size: cover;
   z-index: -1;
