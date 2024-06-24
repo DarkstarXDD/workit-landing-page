@@ -66,13 +66,13 @@ This is my solution to the [Workit Landing Page](https://www.frontendmentor.io/c
 - I have the green background patterns absolutely positioned as pseudo elements of the `.main`. Initially I used the `url()` inside the `content` property to reference the image path.
 
   ```css
-  .main:after {
-    content: url("/assets/bg-pattern-3.svg");
+  .main::after {
+    content: url("/assets/images/bg-pattern-2.svg");
     position: absolute;
     width: 11rem;
     height: 11rem;
-    bottom: -26.5rem;
-    right: 1rem;
+    top: 9.5rem;
+    right: -6rem;
   }
   ```
 

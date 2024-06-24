@@ -411,7 +411,7 @@ body {
     padding-top: 3rem;
   }
 
-  .founder-message-wrapper:after {
+  .founder-message-wrapper::after {
     content: "";
     position: absolute;
     width: 13.8125rem;
@@ -449,7 +449,7 @@ body {
     left: -9rem;
   }
 
-  .main:after {
+  .main::after {
     right: -3rem;
   }
 
@@ -517,7 +517,7 @@ body {
     padding: 4rem;
   }
 
-  .founder-message-wrapper:after {
+  .founder-message-wrapper::after {
     bottom: -4.5rem;
     right: 5rem;
   }
